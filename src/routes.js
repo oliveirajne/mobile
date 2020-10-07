@@ -14,6 +14,7 @@ import CreditCards from './pages/creditcards';
 import Sidebar from './pages/sidebar';
 import Carregando from './pages/carregando';
 import Finaliza from './pages/finaliza';
+import CarregamentoTeste from './pages/carregamentoteste';
 
 // export default createAppContainer(
 //     createSwitchNavigator({
@@ -33,6 +34,7 @@ export default function Routes() {
                 <AppStack.Screen name="Sidebar" component={ Sidebar } />
                 <AppStack.Screen name="Carregando" component={ Carregando } />
                 <AppStack.Screen name="Finaliza" component={ Finaliza } />
+                <AppStack.Screen name="CarregamentoTeste" component={ CarregamentoTeste } />
             </AppStack.Navigator>
 
         </NavigationContainer>

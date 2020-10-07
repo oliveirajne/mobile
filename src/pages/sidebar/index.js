@@ -16,6 +16,10 @@ export default function Sidebar() {
         navigation.navigate('CreditCards');
     };
 
+    function navigateToCarregamentoTeste() {
+        navigation.navigate('CarregamentoTeste');
+    };
+
     return (
         <View style={styles.container}>
             <View style={styles.viewTxtMenu}>
@@ -31,6 +35,10 @@ export default function Sidebar() {
                     <View style={styles.sidebarDivider}></View>
                     <TouchableOpacity onPress={navigateToCarteira}>
                         <Text style={styles.txtMenu}>Carteira</Text>    
+                    </TouchableOpacity>
+                    <View style={styles.sidebarDivider}></View>
+                    <TouchableOpacity onPress={navigateToCarregamentoTeste}>
+                        <Text style={styles.txtMenu}>Carregamento Teste</Text>    
                     </TouchableOpacity>
 
                 </View>
